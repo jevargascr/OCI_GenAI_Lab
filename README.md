@@ -6,7 +6,7 @@ Este laboratorio te guía paso a paso para construir una aplicación visual que 
 
 - Cuenta activa en Oracle Cloud Infrastructure (OCI)
 - Permisos para crear recursos en un Compartment
-- Llave API configurada para el SDK
+- Llave API configurada para el OCI CLI SDK
 - Acceso a un modelo de Generative AI (por ejemplo, `cohere.command-r`)
 
 ---
@@ -23,7 +23,7 @@ Este laboratorio te guía paso a paso para construir una aplicación visual que 
 ### 2. Acceder por SSH
 Desde tu terminal:
 ```bash
-ssh -i ~/.ssh/id_rsa opc@<public_ip>
+ssh -i oci.pem opc@<public_ip>
 ```
 
 ---
