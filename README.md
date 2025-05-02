@@ -18,7 +18,7 @@ Este laboratorio te guía paso a paso para construir una aplicación visual que 
 - Navega a: Compute → Instances → Create Instance
 - Nombre: `oci-genai-lab`
 - Imagen: Oracle Linux 8
-- Shape: VM.Standard.E2.1.Micro (uso gratuito)
+- Shape: VM.Standard3.Flex
 
 ### 2. Acceder por SSH
 Desde tu terminal:
@@ -36,7 +36,7 @@ sudo dnf update -y
 sudo dnf install python39 python39-pip git unzip -y
 sudo alternatives --install /usr/bin/python python /usr/bin/python3.9 1
 python --version
-pip3 install --upgrade pip
+sudo pip3 install --upgrade pip
 ```
 
 ### 2. Instalar el SDK de OCI
