@@ -1,6 +1,6 @@
 # Laboratorio Práctico: OCI Generative AI + Python + Streamlit
 
-Este laboratorio te guía paso a paso para construir una aplicación visual que se conecta al servicio de **OCI Generative AI**, utilizando **Python **, **Streamlit**, y el **SDK oficial de Oracle Cloud**.
+Este laboratorio te guía paso a paso para construir una aplicación visual que se conecta al servicio de **OCI Generative AI**, utilizando **Python**, **Streamlit**, y el **SDK oficial de Oracle Cloud**.
 
 ## 🔹 Requisitos
 
